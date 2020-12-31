@@ -1,7 +1,10 @@
 package gomath
 
+import "log"
+
 // Add function
 func Add(a, b int) int {
+	log.Println(a, b)
 	return a + b
 }
 
