@@ -9,3 +9,8 @@ func Add(a, b int) int {
 func Sub(a, b int) int {
 	return a - b
 }
+
+// Mul function
+func Mul(a, b int) int {
+	return a * b
+}
